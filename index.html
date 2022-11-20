@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 
@@ -9,31 +10,35 @@
     <title>Test Db</title>
     <script src="https://cordzip.github.io/cz.js">
   </script>
-  <link rel="stylesheet" href="
-   https://cordzip.web.app/cz.css">
+  <link rel="stylesheet" href="https://cordzip.github.io/cz.css">
   
 </head>
 <body>
     
-<div class="white2 center fullscreen">
+<div class="dark2 center fullscreen">
 
        <span class="item">
-         
-         <input id="a" class=" dark-bg">
-       </input>
+        <p id="a-txt" class="white">
+        </p>
+       </span>
        
-      <span class="item">
-        <a onclick="send_db()">
-        <p class="prim-bg small-p rounded">Send</p>
+      <span class="item space2">
+        <input id="a" class="small dark-bg">
+      </input>
+
+        <a onclick="upt_db()">
+        <p class="prim-bg small-p rounded comfort">update</p>
        </a>
       </span>
-  </span>
+ 
 
        
     </div>
 
  <script>
-     let run = add_css()
-    </script>
+
+ let run = get_db();
+  
+  </script>
 </body>
 </html>
